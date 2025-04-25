@@ -225,6 +225,8 @@
             <unsignedShort>88</unsignedShort>
             <unsignedShort>89</unsignedShort>
             <unsignedShort>229</unsignedShort>
+            <unsignedShort>373</unsignedShort>
+            <unsignedShort>8</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
