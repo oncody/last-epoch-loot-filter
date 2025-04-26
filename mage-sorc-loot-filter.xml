@@ -552,10 +552,6 @@
             <int>4</int>
             <int>84</int>
             <int>6</int>
-            <int>9</int>
-            <int>16</int>
-            <int>12</int>
-            <int>23</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -587,9 +583,8 @@
             <int>4</int>
             <int>6</int>
             <int>722</int>
-            <int>12</int>
-            <int>16</int>
             <int>23</int>
+            <int>5</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -621,13 +616,6 @@
             <int>4</int>
             <int>84</int>
             <int>6</int>
-            <int>100</int>
-            <int>718</int>
-            <int>759</int>
-            <int>9</int>
-            <int>12</int>
-            <int>16</int>
-            <int>23</int>
             <int>722</int>
             <int>721</int>
             <int>720</int>
@@ -662,13 +650,6 @@
             <int>4</int>
             <int>84</int>
             <int>6</int>
-            <int>100</int>
-            <int>718</int>
-            <int>759</int>
-            <int>9</int>
-            <int>16</int>
-            <int>12</int>
-            <int>23</int>
             <int>720</int>
             <int>722</int>
             <int>721</int>
