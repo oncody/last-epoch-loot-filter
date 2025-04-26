@@ -79,15 +79,11 @@
             <int>709</int>
             <int>381</int>
             <int>32</int>
-            <int>720</int>
             <int>35</int>
-            <int>721</int>
             <int>39</int>
-            <int>722</int>
-            <int>393</int>
-            <int>398</int>
             <int>548</int>
             <int>690</int>
+            <int>429</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -239,6 +235,11 @@
             <unsignedShort>56</unsignedShort>
             <unsignedShort>289</unsignedShort>
             <unsignedShort>348</unsignedShort>
+            <unsignedShort>25</unsignedShort>
+            <unsignedShort>247</unsignedShort>
+            <unsignedShort>138</unsignedShort>
+            <unsignedShort>139</unsignedShort>
+            <unsignedShort>140</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -341,9 +342,6 @@
             <int>39</int>
             <int>84</int>
             <int>6</int>
-            <int>16</int>
-            <int>12</int>
-            <int>23</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
