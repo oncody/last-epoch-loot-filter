@@ -578,6 +578,40 @@
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>6</int>
+            <int>722</int>
+            <int>12</int>
+            <int>16</int>
+            <int>23</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>5</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>God Daggers</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
             <EquipmentType>WAND</EquipmentType>
           </type>
           <subTypes />
@@ -594,6 +628,9 @@
             <int>12</int>
             <int>16</int>
             <int>23</int>
+            <int>722</int>
+            <int>721</int>
+            <int>720</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -632,6 +669,9 @@
             <int>16</int>
             <int>12</int>
             <int>23</int>
+            <int>720</int>
+            <int>722</int>
+            <int>721</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
