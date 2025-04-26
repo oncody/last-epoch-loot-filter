@@ -235,6 +235,7 @@
             <unsignedShort>96</unsignedShort>
             <unsignedShort>94</unsignedShort>
             <unsignedShort>95</unsignedShort>
+            <unsignedShort>204</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -545,9 +546,7 @@
           <type>
             <EquipmentType>CATALYST</EquipmentType>
           </type>
-          <subTypes>
-            <int>11</int>
-          </subTypes>
+          <subTypes />
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
