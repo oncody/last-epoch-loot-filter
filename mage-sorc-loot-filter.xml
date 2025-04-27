@@ -296,6 +296,9 @@
             <unsignedShort>133</unsignedShort>
             <unsignedShort>265</unsignedShort>
             <unsignedShort>73</unsignedShort>
+            <unsignedShort>150</unsignedShort>
+            <unsignedShort>290</unsignedShort>
+            <unsignedShort>12</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
