@@ -21,6 +21,9 @@
     <Rule>
       <type>SHOW</type>
       <conditions>
+        <Condition i:type="ClassCondition">
+          <req>Mage</req>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
@@ -42,7 +45,7 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>Idols</nameOverride>
+      <nameOverride>Mage Idols</nameOverride>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -281,6 +284,16 @@
             <unsignedShort>27</unsignedShort>
             <unsignedShort>23</unsignedShort>
             <unsignedShort>24</unsignedShort>
+            <unsignedShort>287</unsignedShort>
+            <unsignedShort>107</unsignedShort>
+            <unsignedShort>38</unsignedShort>
+            <unsignedShort>285</unsignedShort>
+            <unsignedShort>236</unsignedShort>
+            <unsignedShort>274</unsignedShort>
+            <unsignedShort>203</unsignedShort>
+            <unsignedShort>14</unsignedShort>
+            <unsignedShort>278</unsignedShort>
+            <unsignedShort>104</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
