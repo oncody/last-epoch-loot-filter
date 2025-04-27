@@ -83,7 +83,6 @@
             <int>39</int>
             <int>548</int>
             <int>690</int>
-            <int>429</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -110,6 +109,29 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Salvage</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="FactionCondition">
+          <EligibleFactions>
+            <FactionID>CircleOfFortune</FactionID>
+          </EligibleFactions>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>9</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -242,6 +264,17 @@
             <unsignedShort>140</unsignedShort>
             <unsignedShort>303</unsignedShort>
             <unsignedShort>15</unsignedShort>
+            <unsignedShort>192</unsignedShort>
+            <unsignedShort>134</unsignedShort>
+            <unsignedShort>328</unsignedShort>
+            <unsignedShort>342</unsignedShort>
+            <unsignedShort>60</unsignedShort>
+            <unsignedShort>22</unsignedShort>
+            <unsignedShort>199</unsignedShort>
+            <unsignedShort>68</unsignedShort>
+            <unsignedShort>283</unsignedShort>
+            <unsignedShort>191</unsignedShort>
+            <unsignedShort>71</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -475,8 +508,7 @@
             <int>551</int>
             <int>637</int>
             <int>385</int>
-            <int>393</int>
-            <int>398</int>
+            <int>397</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -514,8 +546,6 @@
             <int>556</int>
             <int>557</int>
             <int>385</int>
-            <int>393</int>
-            <int>398</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
