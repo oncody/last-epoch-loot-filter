@@ -365,7 +365,6 @@
             <unsignedShort>416</unsignedShort>
             <unsignedShort>65</unsignedShort>
             <unsignedShort>62</unsignedShort>
-            <unsignedShort>340</unsignedShort>
             <unsignedShort>331</unsignedShort>
             <unsignedShort>419</unsignedShort>
             <unsignedShort>17</unsignedShort>
@@ -432,7 +431,6 @@
             <unsignedShort>14</unsignedShort>
             <unsignedShort>278</unsignedShort>
             <unsignedShort>104</unsignedShort>
-            <unsignedShort>404</unsignedShort>
             <unsignedShort>190</unsignedShort>
             <unsignedShort>133</unsignedShort>
             <unsignedShort>265</unsignedShort>
@@ -441,6 +439,8 @@
             <unsignedShort>290</unsignedShort>
             <unsignedShort>12</unsignedShort>
             <unsignedShort>241</unsignedShort>
+            <unsignedShort>246</unsignedShort>
+            <unsignedShort>200</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
