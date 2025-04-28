@@ -23,6 +23,118 @@
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes>
+            <int>5</int>
+            <int>6</int>
+          </subTypes>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Unique Adorned Idols</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+          </type>
+          <subTypes>
+            <int>1</int>
+          </subTypes>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Stout Weaver Idols</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+          </type>
+          <subTypes>
+            <int>1</int>
+          </subTypes>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Humble Weaver Idols</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+          </type>
+          <subTypes>
+            <int>1</int>
+          </subTypes>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Minor Weaver Idols</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+          </type>
+          <subTypes>
+            <int>2</int>
+            <int>1</int>
+          </subTypes>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Small Weaver Idols</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
             <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
             <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
             <EquipmentType>IDOL_2x1</EquipmentType>
@@ -42,7 +154,36 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>All idols</nameOverride>
+      <nameOverride>Unique Idols</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="ClassCondition">
+          <req>Mage</req>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Mage Idols</nameOverride>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -299,6 +440,7 @@
             <unsignedShort>150</unsignedShort>
             <unsignedShort>290</unsignedShort>
             <unsignedShort>12</unsignedShort>
+            <unsignedShort>241</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
