@@ -186,6 +186,46 @@
       <nameOverride>Mage Idols</nameOverride>
     </Rule>
     <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>189</int>
+            <int>190</int>
+            <int>191</int>
+            <int>874</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>8</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Spell Damage Idols</nameOverride>
+    </Rule>
+    <Rule>
       <type>HIDE</type>
       <conditions>
         <Condition i:type="ClassCondition">
@@ -441,6 +481,9 @@
             <unsignedShort>241</unsignedShort>
             <unsignedShort>246</unsignedShort>
             <unsignedShort>200</unsignedShort>
+            <unsignedShort>108</unsignedShort>
+            <unsignedShort>340</unsignedShort>
+            <unsignedShort>4</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
