@@ -486,6 +486,8 @@
             <unsignedShort>4</unsignedShort>
             <unsignedShort>284</unsignedShort>
             <unsignedShort>323</unsignedShort>
+            <unsignedShort>209</unsignedShort>
+            <unsignedShort>127</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -684,6 +686,8 @@
           <affixes>
             <int>36</int>
             <int>52</int>
+            <int>330</int>
+            <int>27</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
