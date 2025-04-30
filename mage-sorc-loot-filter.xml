@@ -495,6 +495,18 @@
             <unsignedShort>177</unsignedShort>
             <unsignedShort>153</unsignedShort>
             <unsignedShort>110</unsignedShort>
+            <unsignedShort>54</unsignedShort>
+            <unsignedShort>5</unsignedShort>
+            <unsignedShort>16</unsignedShort>
+            <unsignedShort>26</unsignedShort>
+            <unsignedShort>97</unsignedShort>
+            <unsignedShort>98</unsignedShort>
+            <unsignedShort>99</unsignedShort>
+            <unsignedShort>123</unsignedShort>
+            <unsignedShort>124</unsignedShort>
+            <unsignedShort>92</unsignedShort>
+            <unsignedShort>180</unsignedShort>
+            <unsignedShort>113</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -566,6 +578,7 @@
             <int>504</int>
             <int>503</int>
             <int>501</int>
+            <int>628</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -788,6 +801,7 @@
             <int>504</int>
             <int>503</int>
             <int>501</int>
+            <int>552</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
