@@ -511,6 +511,12 @@
             <unsignedShort>83</unsignedShort>
             <unsignedShort>152</unsignedShort>
             <unsignedShort>249</unsignedShort>
+            <unsignedShort>305</unsignedShort>
+            <unsignedShort>313</unsignedShort>
+            <unsignedShort>312</unsignedShort>
+            <unsignedShort>318</unsignedShort>
+            <unsignedShort>377</unsignedShort>
+            <unsignedShort>317</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -544,10 +550,10 @@
             <int>504</int>
           </affixes>
           <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -588,10 +594,10 @@
             <int>23</int>
           </affixes>
           <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -623,12 +629,13 @@
             <int>12</int>
             <int>23</int>
             <int>38</int>
+            <int>772</int>
           </affixes>
           <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -660,10 +667,10 @@
             <int>504</int>
           </affixes>
           <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -697,10 +704,10 @@
             <int>501</int>
           </affixes>
           <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -730,12 +737,14 @@
             <int>16</int>
             <int>12</int>
             <int>23</int>
+            <int>768</int>
+            <int>771</int>
           </affixes>
           <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -773,10 +782,10 @@
             <int>501</int>
           </affixes>
           <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -818,7 +827,7 @@
           <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -840,6 +849,9 @@
           <type>
             <EquipmentType>HELMET</EquipmentType>
             <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>CATALYST</EquipmentType>
+            <EquipmentType>WAND</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -1059,7 +1071,7 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>T7 Helmet Body Armor</nameOverride>
+      <nameOverride>T7 Gear</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1081,10 +1093,10 @@
             <int>23</int>
           </affixes>
           <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -1119,10 +1131,10 @@
             <int>38</int>
           </affixes>
           <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -1157,10 +1169,10 @@
             <int>23</int>
           </affixes>
           <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -1190,13 +1202,234 @@
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
+          <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>10</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
       <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>50</int>
+            <int>504</int>
+            <int>503</int>
+            <int>502</int>
+            <int>501</int>
+            <int>505</int>
+            <int>671</int>
+            <int>91</int>
+            <int>89</int>
+            <int>2</int>
+            <int>76</int>
+            <int>63</int>
+            <int>79</int>
+            <int>77</int>
+            <int>62</int>
+            <int>78</int>
+            <int>49</int>
+            <int>4</int>
+            <int>84</int>
+            <int>38</int>
+            <int>30</int>
+            <int>93</int>
+            <int>18</int>
+            <int>23</int>
+            <int>12</int>
+            <int>9</int>
+            <int>16</int>
+            <int>88</int>
+            <int>87</int>
+            <int>507</int>
+            <int>61</int>
+            <int>37</int>
+            <int>15</int>
+            <int>0</int>
+            <int>33</int>
+            <int>32</int>
+            <int>35</int>
+            <int>39</int>
+            <int>100</int>
+            <int>719</int>
+            <int>720</int>
+            <int>721</int>
+            <int>722</int>
+            <int>723</int>
+            <int>724</int>
+            <int>725</int>
+            <int>6</int>
+            <int>5</int>
+            <int>72</int>
+            <int>58</int>
+            <int>103</int>
+            <int>101</int>
+            <int>431</int>
+            <int>432</int>
+            <int>433</int>
+            <int>434</int>
+            <int>669</int>
+            <int>670</int>
+            <int>672</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>825</int>
+            <int>41</int>
+            <int>3</int>
+            <int>81</int>
+            <int>74</int>
+            <int>426</int>
+            <int>31</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>1</int>
+            <int>46</int>
+            <int>104</int>
+            <int>92</int>
+            <int>45</int>
+            <int>425</int>
+            <int>65</int>
+            <int>83</int>
+            <int>66</int>
+            <int>82</int>
+            <int>67</int>
+            <int>75</int>
+            <int>8</int>
+            <int>59</int>
+            <int>760</int>
+            <int>20</int>
+            <int>44</int>
+            <int>90</int>
+            <int>43</int>
+            <int>22</int>
+            <int>99</int>
+            <int>382</int>
+            <int>824</int>
+            <int>51</int>
+            <int>29</int>
+            <int>427</int>
+            <int>715</int>
+            <int>97</int>
+            <int>69</int>
+            <int>40</int>
+            <int>42</int>
+            <int>717</int>
+            <int>28</int>
+            <int>27</int>
+            <int>96</int>
+            <int>95</int>
+            <int>34</int>
+            <int>330</int>
+            <int>331</int>
+            <int>506</int>
+            <int>718</int>
+            <int>759</int>
+            <int>26</int>
+            <int>71</int>
+            <int>70</int>
+            <int>73</int>
+            <int>98</int>
+            <int>64</int>
+            <int>102</int>
+            <int>643</int>
+            <int>68</int>
+            <int>60</int>
+            <int>56</int>
+            <int>47</int>
+            <int>55</int>
+            <int>54</int>
+            <int>85</int>
+            <int>94</int>
+            <int>57</int>
+            <int>48</int>
+            <int>11</int>
+            <int>86</int>
+            <int>341</int>
+            <int>428</int>
+            <int>429</int>
+            <int>14</int>
+            <int>53</int>
+            <int>339</int>
+            <int>381</int>
+            <int>383</int>
+            <int>385</int>
+            <int>386</int>
+            <int>387</int>
+            <int>388</int>
+            <int>389</int>
+            <int>390</int>
+            <int>391</int>
+            <int>392</int>
+            <int>393</int>
+            <int>394</int>
+            <int>395</int>
+            <int>396</int>
+            <int>398</int>
+            <int>399</int>
+            <int>400</int>
+            <int>687</int>
+            <int>688</int>
+            <int>690</int>
+            <int>691</int>
+            <int>397</int>
+            <int>546</int>
+            <int>547</int>
+            <int>548</int>
+            <int>549</int>
+            <int>550</int>
+            <int>551</int>
+            <int>552</int>
+            <int>553</int>
+            <int>554</int>
+            <int>556</int>
+            <int>557</int>
+            <int>575</int>
+            <int>584</int>
+            <int>587</int>
+            <int>597</int>
+            <int>598</int>
+            <int>624</int>
+            <int>625</int>
+            <int>628</int>
+            <int>630</int>
+            <int>637</int>
+            <int>593</int>
+            <int>645</int>
+            <int>680</int>
+            <int>681</int>
+            <int>682</int>
+            <int>683</int>
+            <int>684</int>
+            <int>693</int>
+            <int>694</int>
+            <int>695</int>
+            <int>696</int>
+            <int>709</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>12</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
