@@ -510,6 +510,7 @@
             <unsignedShort>113</unsignedShort>
             <unsignedShort>83</unsignedShort>
             <unsignedShort>152</unsignedShort>
+            <unsignedShort>249</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -582,6 +583,9 @@
             <int>503</int>
             <int>501</int>
             <int>628</int>
+            <int>16</int>
+            <int>12</int>
+            <int>23</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -615,6 +619,10 @@
             <int>39</int>
             <int>84</int>
             <int>6</int>
+            <int>16</int>
+            <int>12</int>
+            <int>23</int>
+            <int>38</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -1067,6 +1075,10 @@
             <int>4</int>
             <int>84</int>
             <int>6</int>
+            <int>38</int>
+            <int>16</int>
+            <int>12</int>
+            <int>23</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -1089,74 +1101,6 @@
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
-            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>4</int>
-            <int>6</int>
-            <int>722</int>
-            <int>23</int>
-            <int>5</int>
-          </affixes>
-          <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>God Daggers</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>4</int>
-            <int>84</int>
-            <int>6</int>
-            <int>722</int>
-            <int>721</int>
-            <int>720</int>
-            <int>42</int>
-          </affixes>
-          <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>God Sceptres</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
             <EquipmentType>WAND</EquipmentType>
           </type>
           <subTypes />
@@ -1169,6 +1113,10 @@
             <int>722</int>
             <int>721</int>
             <int>720</int>
+            <int>12</int>
+            <int>16</int>
+            <int>23</int>
+            <int>38</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -1203,6 +1151,10 @@
             <int>720</int>
             <int>722</int>
             <int>721</int>
+            <int>38</int>
+            <int>12</int>
+            <int>16</int>
+            <int>23</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -1219,6 +1171,38 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>God Staves</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes>
+            <int>23</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>34</int>
+            <int>53</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>10</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
     </Rule>
   </rules>
 </ItemFilter>
