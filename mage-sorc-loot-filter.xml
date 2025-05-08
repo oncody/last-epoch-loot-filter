@@ -239,6 +239,12 @@
             <int>882</int>
             <int>883</int>
             <int>884</int>
+            <int>241</int>
+            <int>237</int>
+            <int>244</int>
+            <int>697</int>
+            <int>842</int>
+            <int>878</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -282,6 +288,7 @@
             <int>35</int>
             <int>39</int>
             <int>548</int>
+            <int>53</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -548,9 +555,14 @@
             <unsignedShort>114</unsignedShort>
             <unsignedShort>154</unsignedShort>
             <unsignedShort>67</unsignedShort>
-            <unsignedShort>294</unsignedShort>
             <unsignedShort>76</unsignedShort>
             <unsignedShort>327</unsignedShort>
+            <unsignedShort>187</unsignedShort>
+            <unsignedShort>263</unsignedShort>
+            <unsignedShort>158</unsignedShort>
+            <unsignedShort>157</unsignedShort>
+            <unsignedShort>156</unsignedShort>
+            <unsignedShort>217</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -563,23 +575,37 @@
       <nameOverride>Garbage Uniques</nameOverride>
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIGHLIGHT</type>
       <conditions>
-        <Condition i:type="UniquesCondition">
-          <uniqueIds>
-            <unsignedShort>243</unsignedShort>
-            <unsignedShort>273</unsignedShort>
-            <unsignedShort>418</unsignedShort>
-          </uniqueIds>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="FactionCondition">
+          <EligibleFactions>
+            <FactionID>CircleOfFortune</FactionID>
+          </EligibleFactions>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>NORMAL MAGIC RARE LEGENDARY EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
         </Condition>
       </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
+      <color>16</color>
+      <isEnabled>false</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>Good Uniques</nameOverride>
+      <emphasized>true</emphasized>
+      <nameOverride>CoF Rings</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -592,15 +618,12 @@
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>502</int>
             <int>5</int>
             <int>12</int>
             <int>16</int>
             <int>23</int>
             <int>38</int>
-            <int>503</int>
-            <int>501</int>
-            <int>504</int>
+            <int>502</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -629,7 +652,6 @@
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>502</int>
             <int>84</int>
             <int>6</int>
             <int>4</int>
@@ -638,13 +660,7 @@
             <int>624</int>
             <int>625</int>
             <int>709</int>
-            <int>504</int>
-            <int>503</int>
-            <int>501</int>
             <int>628</int>
-            <int>16</int>
-            <int>12</int>
-            <int>23</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -661,6 +677,36 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>God Relics</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>768</int>
+            <int>771</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>4</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>God Champion Belt</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -707,9 +753,6 @@
             <int>39</int>
             <int>84</int>
             <int>6</int>
-            <int>16</int>
-            <int>12</int>
-            <int>23</int>
             <int>38</int>
             <int>772</int>
           </affixes>
@@ -776,10 +819,7 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>4</int>
-            <int>5</int>
-            <int>502</int>
             <int>36</int>
-            <int>72</int>
             <int>34</int>
           </affixes>
           <comparsion>MORE</comparsion>
@@ -1083,7 +1123,7 @@
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
-            <EquipmentType>WAND</EquipmentType>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -1098,6 +1138,79 @@
             <int>12</int>
             <int>16</int>
             <int>23</int>
+            <int>38</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>God Sceptres</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>84</int>
+            <int>6</int>
+            <int>722</int>
+            <int>721</int>
+            <int>720</int>
+            <int>12</int>
+            <int>16</int>
+            <int>23</int>
+            <int>38</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>God Daggers</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>WAND</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>84</int>
+            <int>6</int>
+            <int>722</int>
+            <int>721</int>
+            <int>720</int>
             <int>38</int>
           </affixes>
           <comparsion>MORE</comparsion>
@@ -1134,9 +1247,6 @@
             <int>722</int>
             <int>721</int>
             <int>38</int>
-            <int>12</int>
-            <int>16</int>
-            <int>23</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1185,6 +1295,52 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>243</unsignedShort>
+            <unsignedShort>273</unsignedShort>
+            <unsignedShort>418</unsignedShort>
+            <unsignedShort>175</unsignedShort>
+            <unsignedShort>277</unsignedShort>
+            <unsignedShort>125</unsignedShort>
+            <unsignedShort>413</unsignedShort>
+            <unsignedShort>370</unsignedShort>
+            <unsignedShort>180</unsignedShort>
+            <unsignedShort>366</unsignedShort>
+            <unsignedShort>315</unsignedShort>
+            <unsignedShort>91</unsignedShort>
+            <unsignedShort>258</unsignedShort>
+            <unsignedShort>403</unsignedShort>
+            <unsignedShort>222</unsignedShort>
+            <unsignedShort>1</unsignedShort>
+            <unsignedShort>105</unsignedShort>
+            <unsignedShort>275</unsignedShort>
+            <unsignedShort>372</unsignedShort>
+            <unsignedShort>74</unsignedShort>
+            <unsignedShort>317</unsignedShort>
+            <unsignedShort>6</unsignedShort>
+            <unsignedShort>298</unsignedShort>
+            <unsignedShort>297</unsignedShort>
+            <unsignedShort>11</unsignedShort>
+            <unsignedShort>18</unsignedShort>
+            <unsignedShort>115</unsignedShort>
+            <unsignedShort>327</unsignedShort>
+            <unsignedShort>296</unsignedShort>
+            <unsignedShort>293</unsignedShort>
+          </uniqueIds>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Good Uniques</nameOverride>
     </Rule>
   </rules>
 </ItemFilter>
