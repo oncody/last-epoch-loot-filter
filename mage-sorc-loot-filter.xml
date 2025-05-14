@@ -4,7 +4,7 @@
   <filterIcon>0</filterIcon>
   <filterIconColor>0</filterIconColor>
   <description />
-  <lastModifiedInVersion>1.2.2.2</lastModifiedInVersion>
+  <lastModifiedInVersion>1.2.3.2</lastModifiedInVersion>
   <lootFilterVersion>3</lootFilterVersion>
   <rules>
     <Rule>
@@ -245,6 +245,15 @@
             <int>697</int>
             <int>842</int>
             <int>878</int>
+            <int>178</int>
+            <int>249</int>
+            <int>328</int>
+            <int>845</int>
+            <int>846</int>
+            <int>875</int>
+            <int>879</int>
+            <int>881</int>
+            <int>890</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -283,12 +292,8 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>36</int>
-            <int>397</int>
-            <int>32</int>
-            <int>35</int>
-            <int>39</int>
+            <int>549</int>
             <int>548</int>
-            <int>53</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -403,7 +408,6 @@
             <unsignedShort>135</unsignedShort>
             <unsignedShort>333</unsignedShort>
             <unsignedShort>370</unsignedShort>
-            <unsignedShort>6</unsignedShort>
             <unsignedShort>416</unsignedShort>
             <unsignedShort>65</unsignedShort>
             <unsignedShort>62</unsignedShort>
@@ -454,7 +458,6 @@
             <unsignedShort>199</unsignedShort>
             <unsignedShort>68</unsignedShort>
             <unsignedShort>283</unsignedShort>
-            <unsignedShort>191</unsignedShort>
             <unsignedShort>71</unsignedShort>
             <unsignedShort>181</unsignedShort>
             <unsignedShort>202</unsignedShort>
@@ -502,7 +505,6 @@
             <unsignedShort>97</unsignedShort>
             <unsignedShort>98</unsignedShort>
             <unsignedShort>99</unsignedShort>
-            <unsignedShort>123</unsignedShort>
             <unsignedShort>124</unsignedShort>
             <unsignedShort>92</unsignedShort>
             <unsignedShort>180</unsignedShort>
@@ -512,7 +514,6 @@
             <unsignedShort>249</unsignedShort>
             <unsignedShort>305</unsignedShort>
             <unsignedShort>313</unsignedShort>
-            <unsignedShort>312</unsignedShort>
             <unsignedShort>318</unsignedShort>
             <unsignedShort>377</unsignedShort>
             <unsignedShort>317</unsignedShort>
@@ -526,8 +527,6 @@
             <unsignedShort>376</unsignedShort>
             <unsignedShort>260</unsignedShort>
             <unsignedShort>10</unsignedShort>
-            <unsignedShort>11</unsignedShort>
-            <unsignedShort>13</unsignedShort>
             <unsignedShort>326</unsignedShort>
             <unsignedShort>325</unsignedShort>
             <unsignedShort>324</unsignedShort>
@@ -540,17 +539,12 @@
             <unsignedShort>160</unsignedShort>
             <unsignedShort>412</unsignedShort>
             <unsignedShort>188</unsignedShort>
-            <unsignedShort>280</unsignedShort>
-            <unsignedShort>286</unsignedShort>
             <unsignedShort>308</unsignedShort>
             <unsignedShort>359</unsignedShort>
-            <unsignedShort>18</unsignedShort>
-            <unsignedShort>74</unsignedShort>
             <unsignedShort>368</unsignedShort>
             <unsignedShort>356</unsignedShort>
             <unsignedShort>55</unsignedShort>
             <unsignedShort>409</unsignedShort>
-            <unsignedShort>118</unsignedShort>
             <unsignedShort>114</unsignedShort>
             <unsignedShort>154</unsignedShort>
             <unsignedShort>67</unsignedShort>
@@ -562,6 +556,17 @@
             <unsignedShort>157</unsignedShort>
             <unsignedShort>156</unsignedShort>
             <unsignedShort>217</unsignedShort>
+            <unsignedShort>149</unsignedShort>
+            <unsignedShort>350</unsignedShort>
+            <unsignedShort>20</unsignedShort>
+            <unsignedShort>136</unsignedShort>
+            <unsignedShort>282</unsignedShort>
+            <unsignedShort>19</unsignedShort>
+            <unsignedShort>218</unsignedShort>
+            <unsignedShort>117</unsignedShort>
+            <unsignedShort>403</unsignedShort>
+            <unsignedShort>367</unsignedShort>
+            <unsignedShort>123</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -579,6 +584,7 @@
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>RING</EquipmentType>
+            <EquipmentType>CATALYST</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -604,7 +610,7 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>CoF Rings</nameOverride>
+      <nameOverride>CoF Items</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -623,6 +629,13 @@
             <int>23</int>
             <int>38</int>
             <int>502</int>
+            <int>501</int>
+            <int>504</int>
+            <int>503</int>
+            <int>824</int>
+            <int>25</int>
+            <int>825</int>
+            <int>100</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -660,6 +673,7 @@
             <int>625</int>
             <int>709</int>
             <int>628</int>
+            <int>100</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -752,8 +766,11 @@
             <int>39</int>
             <int>84</int>
             <int>6</int>
-            <int>38</int>
             <int>772</int>
+            <int>86</int>
+            <int>99</int>
+            <int>824</int>
+            <int>100</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -782,13 +799,40 @@
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
+            <int>36</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>T6 Hybrid Health Boots</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
             <int>502</int>
             <int>36</int>
             <int>27</int>
             <int>28</int>
-            <int>503</int>
             <int>501</int>
-            <int>504</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -820,6 +864,9 @@
             <int>4</int>
             <int>36</int>
             <int>34</int>
+            <int>2</int>
+            <int>86</int>
+            <int>502</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -849,6 +896,35 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>36</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>T6 Hybrid Health Belts</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>36</int>
             <int>52</int>
             <int>27</int>
             <int>16</int>
@@ -856,6 +932,7 @@
             <int>23</int>
             <int>768</int>
             <int>771</int>
+            <int>100</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -872,35 +949,6 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>God Belts</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>549</int>
-          </affixes>
-          <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Level of Fireball Chest Body Armor</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -959,6 +1007,11 @@
             <int>385</int>
             <int>397</int>
             <int>34</int>
+            <int>502</int>
+            <int>400</int>
+            <int>382</int>
+            <int>388</int>
+            <int>389</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1035,6 +1088,11 @@
             <int>385</int>
             <int>34</int>
             <int>552</int>
+            <int>502</int>
+            <int>382</int>
+            <int>400</int>
+            <int>388</int>
+            <int>389</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1051,6 +1109,35 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>T7 Helmets</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>549</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>5</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Level of Fireball Chest Body Armor</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1095,10 +1182,7 @@
             <int>4</int>
             <int>84</int>
             <int>6</int>
-            <int>38</int>
-            <int>16</int>
-            <int>12</int>
-            <int>23</int>
+            <int>34</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1133,7 +1217,8 @@
             <int>722</int>
             <int>721</int>
             <int>720</int>
-            <int>38</int>
+            <int>759</int>
+            <int>506</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1163,12 +1248,11 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>4</int>
-            <int>84</int>
             <int>6</int>
             <int>722</int>
             <int>721</int>
             <int>720</int>
-            <int>38</int>
+            <int>718</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1203,7 +1287,9 @@
             <int>722</int>
             <int>721</int>
             <int>720</int>
-            <int>38</int>
+            <int>718</int>
+            <int>759</int>
+            <int>100</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1238,7 +1324,9 @@
             <int>720</int>
             <int>722</int>
             <int>721</int>
-            <int>38</int>
+            <int>718</int>
+            <int>759</int>
+            <int>100</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1255,6 +1343,484 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>God Staves</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>WAND</EquipmentType>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+            <EquipmentType>CATALYST</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>50</int>
+            <int>504</int>
+            <int>503</int>
+            <int>502</int>
+            <int>501</int>
+            <int>505</int>
+            <int>78</int>
+            <int>62</int>
+            <int>77</int>
+            <int>79</int>
+            <int>63</int>
+            <int>76</int>
+            <int>2</int>
+            <int>89</int>
+            <int>91</int>
+            <int>671</int>
+            <int>49</int>
+            <int>4</int>
+            <int>84</int>
+            <int>38</int>
+            <int>88</int>
+            <int>87</int>
+            <int>507</int>
+            <int>431</int>
+            <int>432</int>
+            <int>433</int>
+            <int>434</int>
+            <int>669</int>
+            <int>670</int>
+            <int>672</int>
+            <int>16</int>
+            <int>9</int>
+            <int>12</int>
+            <int>23</int>
+            <int>18</int>
+            <int>93</int>
+            <int>30</int>
+            <int>61</int>
+            <int>37</int>
+            <int>15</int>
+            <int>0</int>
+            <int>33</int>
+            <int>32</int>
+            <int>35</int>
+            <int>39</int>
+            <int>100</int>
+            <int>719</int>
+            <int>720</int>
+            <int>721</int>
+            <int>722</int>
+            <int>723</int>
+            <int>724</int>
+            <int>725</int>
+            <int>6</int>
+            <int>5</int>
+            <int>72</int>
+            <int>58</int>
+            <int>103</int>
+            <int>101</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>825</int>
+            <int>41</int>
+            <int>3</int>
+            <int>81</int>
+            <int>74</int>
+            <int>426</int>
+            <int>31</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>1</int>
+            <int>46</int>
+            <int>104</int>
+            <int>92</int>
+            <int>45</int>
+            <int>425</int>
+            <int>66</int>
+            <int>83</int>
+            <int>65</int>
+            <int>760</int>
+            <int>59</int>
+            <int>8</int>
+            <int>82</int>
+            <int>67</int>
+            <int>75</int>
+            <int>20</int>
+            <int>44</int>
+            <int>90</int>
+            <int>43</int>
+            <int>22</int>
+            <int>99</int>
+            <int>382</int>
+            <int>824</int>
+            <int>51</int>
+            <int>29</int>
+            <int>427</int>
+            <int>715</int>
+            <int>97</int>
+            <int>69</int>
+            <int>40</int>
+            <int>42</int>
+            <int>717</int>
+            <int>28</int>
+            <int>27</int>
+            <int>96</int>
+            <int>95</int>
+            <int>26</int>
+            <int>71</int>
+            <int>70</int>
+            <int>73</int>
+            <int>98</int>
+            <int>64</int>
+            <int>102</int>
+            <int>643</int>
+            <int>34</int>
+            <int>330</int>
+            <int>331</int>
+            <int>506</int>
+            <int>718</int>
+            <int>759</int>
+            <int>68</int>
+            <int>60</int>
+            <int>56</int>
+            <int>47</int>
+            <int>55</int>
+            <int>54</int>
+            <int>85</int>
+            <int>94</int>
+            <int>57</int>
+            <int>48</int>
+            <int>11</int>
+            <int>86</int>
+            <int>341</int>
+            <int>428</int>
+            <int>429</int>
+            <int>14</int>
+            <int>53</int>
+            <int>339</int>
+            <int>381</int>
+            <int>383</int>
+            <int>385</int>
+            <int>386</int>
+            <int>387</int>
+            <int>388</int>
+            <int>389</int>
+            <int>390</int>
+            <int>391</int>
+            <int>392</int>
+            <int>393</int>
+            <int>394</int>
+            <int>395</int>
+            <int>396</int>
+            <int>398</int>
+            <int>399</int>
+            <int>400</int>
+            <int>687</int>
+            <int>688</int>
+            <int>690</int>
+            <int>691</int>
+            <int>397</int>
+            <int>546</int>
+            <int>547</int>
+            <int>548</int>
+            <int>549</int>
+            <int>550</int>
+            <int>551</int>
+            <int>552</int>
+            <int>553</int>
+            <int>554</int>
+            <int>556</int>
+            <int>557</int>
+            <int>575</int>
+            <int>584</int>
+            <int>587</int>
+            <int>597</int>
+            <int>598</int>
+            <int>624</int>
+            <int>625</int>
+            <int>628</int>
+            <int>630</int>
+            <int>637</int>
+            <int>593</int>
+            <int>645</int>
+            <int>680</int>
+            <int>681</int>
+            <int>682</int>
+            <int>683</int>
+            <int>684</int>
+            <int>693</int>
+            <int>694</int>
+            <int>695</int>
+            <int>696</int>
+            <int>709</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>MORE</combinedComparsion>
+          <combinedComparsionValue>12</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>T7 T6 Items</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>WAND</EquipmentType>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+            <EquipmentType>CATALYST</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>50</int>
+            <int>504</int>
+            <int>503</int>
+            <int>502</int>
+            <int>501</int>
+            <int>505</int>
+            <int>78</int>
+            <int>62</int>
+            <int>77</int>
+            <int>79</int>
+            <int>63</int>
+            <int>76</int>
+            <int>2</int>
+            <int>89</int>
+            <int>91</int>
+            <int>671</int>
+            <int>49</int>
+            <int>4</int>
+            <int>84</int>
+            <int>38</int>
+            <int>88</int>
+            <int>87</int>
+            <int>507</int>
+            <int>431</int>
+            <int>432</int>
+            <int>433</int>
+            <int>434</int>
+            <int>669</int>
+            <int>670</int>
+            <int>672</int>
+            <int>16</int>
+            <int>9</int>
+            <int>12</int>
+            <int>23</int>
+            <int>18</int>
+            <int>93</int>
+            <int>30</int>
+            <int>61</int>
+            <int>37</int>
+            <int>15</int>
+            <int>0</int>
+            <int>33</int>
+            <int>32</int>
+            <int>35</int>
+            <int>39</int>
+            <int>100</int>
+            <int>719</int>
+            <int>720</int>
+            <int>721</int>
+            <int>722</int>
+            <int>723</int>
+            <int>724</int>
+            <int>725</int>
+            <int>6</int>
+            <int>5</int>
+            <int>72</int>
+            <int>58</int>
+            <int>103</int>
+            <int>101</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>825</int>
+            <int>41</int>
+            <int>3</int>
+            <int>81</int>
+            <int>74</int>
+            <int>426</int>
+            <int>31</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>1</int>
+            <int>46</int>
+            <int>104</int>
+            <int>92</int>
+            <int>45</int>
+            <int>425</int>
+            <int>66</int>
+            <int>83</int>
+            <int>65</int>
+            <int>760</int>
+            <int>59</int>
+            <int>8</int>
+            <int>82</int>
+            <int>67</int>
+            <int>75</int>
+            <int>20</int>
+            <int>44</int>
+            <int>90</int>
+            <int>43</int>
+            <int>22</int>
+            <int>99</int>
+            <int>382</int>
+            <int>824</int>
+            <int>51</int>
+            <int>29</int>
+            <int>427</int>
+            <int>715</int>
+            <int>97</int>
+            <int>69</int>
+            <int>40</int>
+            <int>42</int>
+            <int>717</int>
+            <int>28</int>
+            <int>27</int>
+            <int>96</int>
+            <int>95</int>
+            <int>26</int>
+            <int>71</int>
+            <int>70</int>
+            <int>73</int>
+            <int>98</int>
+            <int>64</int>
+            <int>102</int>
+            <int>643</int>
+            <int>34</int>
+            <int>330</int>
+            <int>331</int>
+            <int>506</int>
+            <int>718</int>
+            <int>759</int>
+            <int>68</int>
+            <int>60</int>
+            <int>56</int>
+            <int>47</int>
+            <int>55</int>
+            <int>54</int>
+            <int>85</int>
+            <int>94</int>
+            <int>57</int>
+            <int>48</int>
+            <int>11</int>
+            <int>86</int>
+            <int>341</int>
+            <int>428</int>
+            <int>429</int>
+            <int>14</int>
+            <int>53</int>
+            <int>339</int>
+            <int>381</int>
+            <int>383</int>
+            <int>385</int>
+            <int>386</int>
+            <int>387</int>
+            <int>388</int>
+            <int>389</int>
+            <int>390</int>
+            <int>391</int>
+            <int>392</int>
+            <int>393</int>
+            <int>394</int>
+            <int>395</int>
+            <int>396</int>
+            <int>398</int>
+            <int>399</int>
+            <int>400</int>
+            <int>687</int>
+            <int>688</int>
+            <int>690</int>
+            <int>691</int>
+            <int>397</int>
+            <int>546</int>
+            <int>547</int>
+            <int>548</int>
+            <int>549</int>
+            <int>550</int>
+            <int>551</int>
+            <int>552</int>
+            <int>553</int>
+            <int>554</int>
+            <int>556</int>
+            <int>557</int>
+            <int>575</int>
+            <int>584</int>
+            <int>587</int>
+            <int>597</int>
+            <int>598</int>
+            <int>624</int>
+            <int>625</int>
+            <int>628</int>
+            <int>630</int>
+            <int>637</int>
+            <int>593</int>
+            <int>645</int>
+            <int>680</int>
+            <int>681</int>
+            <int>682</int>
+            <int>683</int>
+            <int>684</int>
+            <int>693</int>
+            <int>694</int>
+            <int>695</int>
+            <int>696</int>
+            <int>709</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>12</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Double T7 Items</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1306,14 +1872,12 @@
             <unsignedShort>315</unsignedShort>
             <unsignedShort>91</unsignedShort>
             <unsignedShort>258</unsignedShort>
-            <unsignedShort>403</unsignedShort>
             <unsignedShort>222</unsignedShort>
             <unsignedShort>1</unsignedShort>
             <unsignedShort>105</unsignedShort>
             <unsignedShort>275</unsignedShort>
             <unsignedShort>372</unsignedShort>
             <unsignedShort>74</unsignedShort>
-            <unsignedShort>317</unsignedShort>
             <unsignedShort>6</unsignedShort>
             <unsignedShort>298</unsignedShort>
             <unsignedShort>297</unsignedShort>
@@ -1323,6 +1887,36 @@
             <unsignedShort>296</unsignedShort>
             <unsignedShort>293</unsignedShort>
             <unsignedShort>262</unsignedShort>
+            <unsignedShort>13</unsignedShort>
+            <unsignedShort>112</unsignedShort>
+            <unsignedShort>280</unsignedShort>
+            <unsignedShort>286</unsignedShort>
+            <unsignedShort>321</unsignedShort>
+            <unsignedShort>354</unsignedShort>
+            <unsignedShort>312</unsignedShort>
+            <unsignedShort>257</unsignedShort>
+            <unsignedShort>118</unsignedShort>
+            <unsignedShort>132</unsignedShort>
+            <unsignedShort>191</unsignedShort>
+            <unsignedShort>104</unsignedShort>
+            <unsignedShort>357</unsignedShort>
+            <unsignedShort>30</unsignedShort>
+            <unsignedShort>176</unsignedShort>
+            <unsignedShort>61</unsignedShort>
+            <unsignedShort>238</unsignedShort>
+            <unsignedShort>310</unsignedShort>
+            <unsignedShort>216</unsignedShort>
+            <unsignedShort>195</unsignedShort>
+            <unsignedShort>196</unsignedShort>
+            <unsignedShort>197</unsignedShort>
+            <unsignedShort>187</unsignedShort>
+            <unsignedShort>198</unsignedShort>
+            <unsignedShort>59</unsignedShort>
+            <unsignedShort>369</unsignedShort>
+            <unsignedShort>164</unsignedShort>
+            <unsignedShort>402</unsignedShort>
+            <unsignedShort>9</unsignedShort>
+            <unsignedShort>167</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -1333,6 +1927,55 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Good Uniques</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>277</unsignedShort>
+            <unsignedShort>175</unsignedShort>
+            <unsignedShort>353</unsignedShort>
+            <unsignedShort>413</unsignedShort>
+            <unsignedShort>310</unsignedShort>
+            <unsignedShort>6</unsignedShort>
+            <unsignedShort>286</unsignedShort>
+            <unsignedShort>321</unsignedShort>
+            <unsignedShort>372</unsignedShort>
+            <unsignedShort>275</unsignedShort>
+            <unsignedShort>402</unsignedShort>
+          </uniqueIds>
+        </Condition>
+      </conditions>
+      <color>8</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential>3</minLegendaryPotential>
+          <maxLegendaryPotential>4</maxLegendaryPotential>
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
     </Rule>
   </rules>
 </ItemFilter>
