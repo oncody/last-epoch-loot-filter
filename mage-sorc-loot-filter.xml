@@ -4,7 +4,7 @@
   <filterIcon>0</filterIcon>
   <filterIconColor>0</filterIconColor>
   <description />
-  <lastModifiedInVersion>1.2.3.2</lastModifiedInVersion>
+  <lastModifiedInVersion>1.2.4</lastModifiedInVersion>
   <lootFilterVersion>3</lootFilterVersion>
   <rules>
     <Rule>
@@ -239,19 +239,14 @@
             <int>882</int>
             <int>883</int>
             <int>884</int>
-            <int>241</int>
             <int>237</int>
-            <int>244</int>
             <int>697</int>
             <int>842</int>
             <int>878</int>
             <int>178</int>
-            <int>249</int>
             <int>328</int>
-            <int>845</int>
             <int>846</int>
             <int>875</int>
-            <int>879</int>
             <int>881</int>
             <int>890</int>
           </affixes>
@@ -292,8 +287,6 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>36</int>
-            <int>549</int>
-            <int>548</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -325,7 +318,7 @@
       <type>SHOW</type>
       <conditions>
         <Condition i:type="RarityCondition">
-          <rarity>UNIQUE SET LEGENDARY</rarity>
+          <rarity>UNIQUE LEGENDARY</rarity>
           <minLegendaryPotential i:nil="true" />
           <maxLegendaryPotential i:nil="true" />
           <minWeaversWill i:nil="true" />
@@ -394,189 +387,6 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Non-mage Rare Items</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIDE</type>
-      <conditions>
-        <Condition i:type="UniquesCondition">
-          <uniqueIds>
-            <unsignedShort>59</unsignedShort>
-            <unsignedShort>7</unsignedShort>
-            <unsignedShort>165</unsignedShort>
-            <unsignedShort>66</unsignedShort>
-            <unsignedShort>39</unsignedShort>
-            <unsignedShort>135</unsignedShort>
-            <unsignedShort>333</unsignedShort>
-            <unsignedShort>370</unsignedShort>
-            <unsignedShort>416</unsignedShort>
-            <unsignedShort>65</unsignedShort>
-            <unsignedShort>62</unsignedShort>
-            <unsignedShort>331</unsignedShort>
-            <unsignedShort>419</unsignedShort>
-            <unsignedShort>17</unsignedShort>
-            <unsignedShort>75</unsignedShort>
-            <unsignedShort>234</unsignedShort>
-            <unsignedShort>102</unsignedShort>
-            <unsignedShort>101</unsignedShort>
-            <unsignedShort>100</unsignedShort>
-            <unsignedShort>268</unsignedShort>
-            <unsignedShort>58</unsignedShort>
-            <unsignedShort>126</unsignedShort>
-            <unsignedShort>228</unsignedShort>
-            <unsignedShort>227</unsignedShort>
-            <unsignedShort>206</unsignedShort>
-            <unsignedShort>90</unsignedShort>
-            <unsignedShort>88</unsignedShort>
-            <unsignedShort>89</unsignedShort>
-            <unsignedShort>229</unsignedShort>
-            <unsignedShort>373</unsignedShort>
-            <unsignedShort>8</unsignedShort>
-            <unsignedShort>406</unsignedShort>
-            <unsignedShort>205</unsignedShort>
-            <unsignedShort>103</unsignedShort>
-            <unsignedShort>369</unsignedShort>
-            <unsignedShort>21</unsignedShort>
-            <unsignedShort>96</unsignedShort>
-            <unsignedShort>94</unsignedShort>
-            <unsignedShort>95</unsignedShort>
-            <unsignedShort>204</unsignedShort>
-            <unsignedShort>56</unsignedShort>
-            <unsignedShort>289</unsignedShort>
-            <unsignedShort>25</unsignedShort>
-            <unsignedShort>247</unsignedShort>
-            <unsignedShort>138</unsignedShort>
-            <unsignedShort>139</unsignedShort>
-            <unsignedShort>140</unsignedShort>
-            <unsignedShort>303</unsignedShort>
-            <unsignedShort>15</unsignedShort>
-            <unsignedShort>192</unsignedShort>
-            <unsignedShort>134</unsignedShort>
-            <unsignedShort>328</unsignedShort>
-            <unsignedShort>342</unsignedShort>
-            <unsignedShort>60</unsignedShort>
-            <unsignedShort>22</unsignedShort>
-            <unsignedShort>199</unsignedShort>
-            <unsignedShort>68</unsignedShort>
-            <unsignedShort>283</unsignedShort>
-            <unsignedShort>71</unsignedShort>
-            <unsignedShort>181</unsignedShort>
-            <unsignedShort>202</unsignedShort>
-            <unsignedShort>116</unsignedShort>
-            <unsignedShort>27</unsignedShort>
-            <unsignedShort>23</unsignedShort>
-            <unsignedShort>24</unsignedShort>
-            <unsignedShort>107</unsignedShort>
-            <unsignedShort>38</unsignedShort>
-            <unsignedShort>285</unsignedShort>
-            <unsignedShort>236</unsignedShort>
-            <unsignedShort>274</unsignedShort>
-            <unsignedShort>203</unsignedShort>
-            <unsignedShort>14</unsignedShort>
-            <unsignedShort>278</unsignedShort>
-            <unsignedShort>104</unsignedShort>
-            <unsignedShort>190</unsignedShort>
-            <unsignedShort>133</unsignedShort>
-            <unsignedShort>265</unsignedShort>
-            <unsignedShort>73</unsignedShort>
-            <unsignedShort>150</unsignedShort>
-            <unsignedShort>290</unsignedShort>
-            <unsignedShort>12</unsignedShort>
-            <unsignedShort>241</unsignedShort>
-            <unsignedShort>246</unsignedShort>
-            <unsignedShort>200</unsignedShort>
-            <unsignedShort>108</unsignedShort>
-            <unsignedShort>340</unsignedShort>
-            <unsignedShort>4</unsignedShort>
-            <unsignedShort>284</unsignedShort>
-            <unsignedShort>323</unsignedShort>
-            <unsignedShort>209</unsignedShort>
-            <unsignedShort>127</unsignedShort>
-            <unsignedShort>235</unsignedShort>
-            <unsignedShort>57</unsignedShort>
-            <unsignedShort>63</unsignedShort>
-            <unsignedShort>64</unsignedShort>
-            <unsignedShort>177</unsignedShort>
-            <unsignedShort>153</unsignedShort>
-            <unsignedShort>110</unsignedShort>
-            <unsignedShort>54</unsignedShort>
-            <unsignedShort>5</unsignedShort>
-            <unsignedShort>16</unsignedShort>
-            <unsignedShort>26</unsignedShort>
-            <unsignedShort>97</unsignedShort>
-            <unsignedShort>98</unsignedShort>
-            <unsignedShort>99</unsignedShort>
-            <unsignedShort>124</unsignedShort>
-            <unsignedShort>92</unsignedShort>
-            <unsignedShort>180</unsignedShort>
-            <unsignedShort>113</unsignedShort>
-            <unsignedShort>83</unsignedShort>
-            <unsignedShort>152</unsignedShort>
-            <unsignedShort>249</unsignedShort>
-            <unsignedShort>305</unsignedShort>
-            <unsignedShort>313</unsignedShort>
-            <unsignedShort>318</unsignedShort>
-            <unsignedShort>377</unsignedShort>
-            <unsignedShort>317</unsignedShort>
-            <unsignedShort>81</unsignedShort>
-            <unsignedShort>239</unsignedShort>
-            <unsignedShort>261</unsignedShort>
-            <unsignedShort>185</unsignedShort>
-            <unsignedShort>186</unsignedShort>
-            <unsignedShort>374</unsignedShort>
-            <unsignedShort>375</unsignedShort>
-            <unsignedShort>376</unsignedShort>
-            <unsignedShort>260</unsignedShort>
-            <unsignedShort>10</unsignedShort>
-            <unsignedShort>326</unsignedShort>
-            <unsignedShort>325</unsignedShort>
-            <unsignedShort>324</unsignedShort>
-            <unsignedShort>360</unsignedShort>
-            <unsignedShort>255</unsignedShort>
-            <unsignedShort>111</unsignedShort>
-            <unsignedShort>84</unsignedShort>
-            <unsignedShort>355</unsignedShort>
-            <unsignedShort>163</unsignedShort>
-            <unsignedShort>160</unsignedShort>
-            <unsignedShort>412</unsignedShort>
-            <unsignedShort>188</unsignedShort>
-            <unsignedShort>308</unsignedShort>
-            <unsignedShort>359</unsignedShort>
-            <unsignedShort>368</unsignedShort>
-            <unsignedShort>356</unsignedShort>
-            <unsignedShort>55</unsignedShort>
-            <unsignedShort>409</unsignedShort>
-            <unsignedShort>114</unsignedShort>
-            <unsignedShort>154</unsignedShort>
-            <unsignedShort>67</unsignedShort>
-            <unsignedShort>76</unsignedShort>
-            <unsignedShort>327</unsignedShort>
-            <unsignedShort>187</unsignedShort>
-            <unsignedShort>263</unsignedShort>
-            <unsignedShort>158</unsignedShort>
-            <unsignedShort>157</unsignedShort>
-            <unsignedShort>156</unsignedShort>
-            <unsignedShort>217</unsignedShort>
-            <unsignedShort>149</unsignedShort>
-            <unsignedShort>350</unsignedShort>
-            <unsignedShort>20</unsignedShort>
-            <unsignedShort>136</unsignedShort>
-            <unsignedShort>282</unsignedShort>
-            <unsignedShort>19</unsignedShort>
-            <unsignedShort>218</unsignedShort>
-            <unsignedShort>117</unsignedShort>
-            <unsignedShort>403</unsignedShort>
-            <unsignedShort>367</unsignedShort>
-            <unsignedShort>123</unsignedShort>
-          </uniqueIds>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>Garbage Uniques</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -674,6 +484,11 @@
             <int>709</int>
             <int>628</int>
             <int>100</int>
+            <int>504</int>
+            <int>503</int>
+            <int>502</int>
+            <int>501</int>
+            <int>22</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -833,6 +648,7 @@
             <int>27</int>
             <int>28</int>
             <int>501</int>
+            <int>25</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -861,12 +677,46 @@
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
+            <int>675</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>T6 Gloves</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
             <int>4</int>
             <int>36</int>
             <int>34</int>
             <int>2</int>
             <int>86</int>
             <int>502</int>
+            <int>504</int>
+            <int>503</int>
+            <int>501</int>
+            <int>675</int>
+            <int>25</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -924,6 +774,39 @@
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
+            <int>27</int>
+            <int>768</int>
+            <int>771</int>
+            <int>83</int>
+            <int>36</int>
+          </affixes>
+          <comparsion>MORE</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>T6 Belts</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
             <int>36</int>
             <int>52</int>
             <int>27</int>
@@ -933,6 +816,8 @@
             <int>768</int>
             <int>771</int>
             <int>100</int>
+            <int>83</int>
+            <int>25</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1012,6 +897,10 @@
             <int>382</int>
             <int>388</int>
             <int>389</int>
+            <int>504</int>
+            <int>503</int>
+            <int>501</int>
+            <int>25</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1093,6 +982,10 @@
             <int>400</int>
             <int>388</int>
             <int>389</int>
+            <int>504</int>
+            <int>503</int>
+            <int>501</int>
+            <int>25</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1584,7 +1477,7 @@
       <nameOverride>T7 T6 Items</nameOverride>
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
@@ -1814,7 +1707,7 @@
           <advanced>true</advanced>
         </Condition>
       </conditions>
-      <color>0</color>
+      <color>9</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -1859,8 +1752,244 @@
       <conditions>
         <Condition i:type="UniquesCondition">
           <uniqueIds>
-            <unsignedShort>243</unsignedShort>
+            <unsignedShort>327</unsignedShort>
+            <unsignedShort>296</unsignedShort>
+            <unsignedShort>293</unsignedShort>
+            <unsignedShort>295</unsignedShort>
+            <unsignedShort>409</unsignedShort>
+            <unsignedShort>294</unsignedShort>
+            <unsignedShort>298</unsignedShort>
+            <unsignedShort>297</unsignedShort>
+          </uniqueIds>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>NONE</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill>14</minWeaversWill>
+          <maxWeaversWill>28</maxWeaversWill>
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>WW 14+</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>59</unsignedShort>
+            <unsignedShort>7</unsignedShort>
+            <unsignedShort>165</unsignedShort>
+            <unsignedShort>66</unsignedShort>
+            <unsignedShort>39</unsignedShort>
+            <unsignedShort>135</unsignedShort>
+            <unsignedShort>333</unsignedShort>
+            <unsignedShort>370</unsignedShort>
+            <unsignedShort>416</unsignedShort>
+            <unsignedShort>65</unsignedShort>
+            <unsignedShort>62</unsignedShort>
+            <unsignedShort>331</unsignedShort>
+            <unsignedShort>419</unsignedShort>
+            <unsignedShort>17</unsignedShort>
+            <unsignedShort>75</unsignedShort>
+            <unsignedShort>234</unsignedShort>
+            <unsignedShort>102</unsignedShort>
+            <unsignedShort>101</unsignedShort>
+            <unsignedShort>100</unsignedShort>
+            <unsignedShort>268</unsignedShort>
+            <unsignedShort>58</unsignedShort>
+            <unsignedShort>126</unsignedShort>
+            <unsignedShort>228</unsignedShort>
+            <unsignedShort>227</unsignedShort>
+            <unsignedShort>206</unsignedShort>
+            <unsignedShort>90</unsignedShort>
+            <unsignedShort>88</unsignedShort>
+            <unsignedShort>89</unsignedShort>
+            <unsignedShort>229</unsignedShort>
+            <unsignedShort>373</unsignedShort>
+            <unsignedShort>8</unsignedShort>
+            <unsignedShort>406</unsignedShort>
+            <unsignedShort>205</unsignedShort>
+            <unsignedShort>103</unsignedShort>
+            <unsignedShort>369</unsignedShort>
+            <unsignedShort>21</unsignedShort>
+            <unsignedShort>96</unsignedShort>
+            <unsignedShort>94</unsignedShort>
+            <unsignedShort>95</unsignedShort>
+            <unsignedShort>204</unsignedShort>
+            <unsignedShort>56</unsignedShort>
+            <unsignedShort>289</unsignedShort>
+            <unsignedShort>25</unsignedShort>
+            <unsignedShort>247</unsignedShort>
+            <unsignedShort>138</unsignedShort>
+            <unsignedShort>139</unsignedShort>
+            <unsignedShort>140</unsignedShort>
+            <unsignedShort>303</unsignedShort>
+            <unsignedShort>15</unsignedShort>
+            <unsignedShort>192</unsignedShort>
+            <unsignedShort>134</unsignedShort>
+            <unsignedShort>328</unsignedShort>
+            <unsignedShort>342</unsignedShort>
+            <unsignedShort>60</unsignedShort>
+            <unsignedShort>22</unsignedShort>
+            <unsignedShort>199</unsignedShort>
+            <unsignedShort>68</unsignedShort>
+            <unsignedShort>283</unsignedShort>
+            <unsignedShort>71</unsignedShort>
+            <unsignedShort>181</unsignedShort>
+            <unsignedShort>202</unsignedShort>
+            <unsignedShort>116</unsignedShort>
+            <unsignedShort>27</unsignedShort>
+            <unsignedShort>23</unsignedShort>
+            <unsignedShort>24</unsignedShort>
+            <unsignedShort>107</unsignedShort>
+            <unsignedShort>38</unsignedShort>
+            <unsignedShort>285</unsignedShort>
+            <unsignedShort>236</unsignedShort>
+            <unsignedShort>274</unsignedShort>
+            <unsignedShort>203</unsignedShort>
+            <unsignedShort>14</unsignedShort>
+            <unsignedShort>278</unsignedShort>
+            <unsignedShort>104</unsignedShort>
+            <unsignedShort>190</unsignedShort>
+            <unsignedShort>133</unsignedShort>
+            <unsignedShort>265</unsignedShort>
+            <unsignedShort>73</unsignedShort>
+            <unsignedShort>150</unsignedShort>
+            <unsignedShort>290</unsignedShort>
+            <unsignedShort>12</unsignedShort>
+            <unsignedShort>241</unsignedShort>
+            <unsignedShort>246</unsignedShort>
+            <unsignedShort>200</unsignedShort>
+            <unsignedShort>108</unsignedShort>
+            <unsignedShort>340</unsignedShort>
+            <unsignedShort>4</unsignedShort>
+            <unsignedShort>284</unsignedShort>
+            <unsignedShort>323</unsignedShort>
+            <unsignedShort>209</unsignedShort>
+            <unsignedShort>127</unsignedShort>
+            <unsignedShort>235</unsignedShort>
+            <unsignedShort>57</unsignedShort>
+            <unsignedShort>63</unsignedShort>
+            <unsignedShort>64</unsignedShort>
+            <unsignedShort>177</unsignedShort>
+            <unsignedShort>153</unsignedShort>
+            <unsignedShort>110</unsignedShort>
+            <unsignedShort>54</unsignedShort>
+            <unsignedShort>5</unsignedShort>
+            <unsignedShort>16</unsignedShort>
+            <unsignedShort>26</unsignedShort>
+            <unsignedShort>97</unsignedShort>
+            <unsignedShort>98</unsignedShort>
+            <unsignedShort>99</unsignedShort>
+            <unsignedShort>124</unsignedShort>
+            <unsignedShort>92</unsignedShort>
+            <unsignedShort>180</unsignedShort>
+            <unsignedShort>113</unsignedShort>
+            <unsignedShort>83</unsignedShort>
+            <unsignedShort>152</unsignedShort>
+            <unsignedShort>249</unsignedShort>
+            <unsignedShort>305</unsignedShort>
+            <unsignedShort>313</unsignedShort>
+            <unsignedShort>318</unsignedShort>
+            <unsignedShort>377</unsignedShort>
+            <unsignedShort>317</unsignedShort>
+            <unsignedShort>81</unsignedShort>
+            <unsignedShort>239</unsignedShort>
+            <unsignedShort>261</unsignedShort>
+            <unsignedShort>185</unsignedShort>
+            <unsignedShort>186</unsignedShort>
+            <unsignedShort>374</unsignedShort>
+            <unsignedShort>375</unsignedShort>
+            <unsignedShort>376</unsignedShort>
+            <unsignedShort>260</unsignedShort>
+            <unsignedShort>10</unsignedShort>
+            <unsignedShort>326</unsignedShort>
+            <unsignedShort>325</unsignedShort>
+            <unsignedShort>324</unsignedShort>
+            <unsignedShort>360</unsignedShort>
+            <unsignedShort>255</unsignedShort>
+            <unsignedShort>111</unsignedShort>
+            <unsignedShort>84</unsignedShort>
+            <unsignedShort>355</unsignedShort>
+            <unsignedShort>163</unsignedShort>
+            <unsignedShort>160</unsignedShort>
+            <unsignedShort>412</unsignedShort>
+            <unsignedShort>188</unsignedShort>
+            <unsignedShort>308</unsignedShort>
+            <unsignedShort>359</unsignedShort>
+            <unsignedShort>368</unsignedShort>
+            <unsignedShort>356</unsignedShort>
+            <unsignedShort>55</unsignedShort>
+            <unsignedShort>409</unsignedShort>
+            <unsignedShort>114</unsignedShort>
+            <unsignedShort>154</unsignedShort>
+            <unsignedShort>67</unsignedShort>
+            <unsignedShort>76</unsignedShort>
+            <unsignedShort>327</unsignedShort>
+            <unsignedShort>187</unsignedShort>
+            <unsignedShort>263</unsignedShort>
+            <unsignedShort>158</unsignedShort>
+            <unsignedShort>157</unsignedShort>
+            <unsignedShort>156</unsignedShort>
+            <unsignedShort>217</unsignedShort>
+            <unsignedShort>149</unsignedShort>
+            <unsignedShort>350</unsignedShort>
+            <unsignedShort>20</unsignedShort>
+            <unsignedShort>136</unsignedShort>
+            <unsignedShort>282</unsignedShort>
+            <unsignedShort>19</unsignedShort>
+            <unsignedShort>218</unsignedShort>
+            <unsignedShort>117</unsignedShort>
+            <unsignedShort>403</unsignedShort>
+            <unsignedShort>367</unsignedShort>
+            <unsignedShort>123</unsignedShort>
+            <unsignedShort>312</unsignedShort>
+            <unsignedShort>332</unsignedShort>
             <unsignedShort>273</unsignedShort>
+            <unsignedShort>33</unsignedShort>
+            <unsignedShort>316</unsignedShort>
+            <unsignedShort>253</unsignedShort>
+            <unsignedShort>233</unsignedShort>
+            <unsignedShort>182</unsignedShort>
+            <unsignedShort>13</unsignedShort>
+            <unsignedShort>240</unsignedShort>
+            <unsignedShort>105</unsignedShort>
+            <unsignedShort>214</unsignedShort>
+            <unsignedShort>307</unsignedShort>
+            <unsignedShort>322</unsignedShort>
+            <unsignedShort>74</unsignedShort>
+            <unsignedShort>9</unsignedShort>
+            <unsignedShort>304</unsignedShort>
+            <unsignedShort>219</unsignedShort>
+            <unsignedShort>37</unsignedShort>
+            <unsignedShort>351</unsignedShort>
+            <unsignedShort>296</unsignedShort>
+          </uniqueIds>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Garbage Uniques</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
             <unsignedShort>418</unsignedShort>
             <unsignedShort>175</unsignedShort>
             <unsignedShort>277</unsignedShort>
@@ -1874,26 +2003,18 @@
             <unsignedShort>258</unsignedShort>
             <unsignedShort>222</unsignedShort>
             <unsignedShort>1</unsignedShort>
-            <unsignedShort>105</unsignedShort>
             <unsignedShort>275</unsignedShort>
             <unsignedShort>372</unsignedShort>
-            <unsignedShort>74</unsignedShort>
             <unsignedShort>6</unsignedShort>
-            <unsignedShort>298</unsignedShort>
-            <unsignedShort>297</unsignedShort>
             <unsignedShort>11</unsignedShort>
             <unsignedShort>18</unsignedShort>
             <unsignedShort>115</unsignedShort>
-            <unsignedShort>296</unsignedShort>
-            <unsignedShort>293</unsignedShort>
             <unsignedShort>262</unsignedShort>
-            <unsignedShort>13</unsignedShort>
             <unsignedShort>112</unsignedShort>
             <unsignedShort>280</unsignedShort>
             <unsignedShort>286</unsignedShort>
             <unsignedShort>321</unsignedShort>
             <unsignedShort>354</unsignedShort>
-            <unsignedShort>312</unsignedShort>
             <unsignedShort>257</unsignedShort>
             <unsignedShort>118</unsignedShort>
             <unsignedShort>132</unsignedShort>
@@ -1915,8 +2036,9 @@
             <unsignedShort>369</unsignedShort>
             <unsignedShort>164</unsignedShort>
             <unsignedShort>402</unsignedShort>
-            <unsignedShort>9</unsignedShort>
             <unsignedShort>167</unsignedShort>
+            <unsignedShort>65</unsignedShort>
+            <unsignedShort>2</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -1944,6 +2066,16 @@
             <unsignedShort>372</unsignedShort>
             <unsignedShort>275</unsignedShort>
             <unsignedShort>402</unsignedShort>
+            <unsignedShort>216</unsignedShort>
+            <unsignedShort>195</unsignedShort>
+            <unsignedShort>196</unsignedShort>
+            <unsignedShort>197</unsignedShort>
+            <unsignedShort>404</unsignedShort>
+            <unsignedShort>11</unsignedShort>
+            <unsignedShort>354</unsignedShort>
+            <unsignedShort>315</unsignedShort>
+            <unsignedShort>115</unsignedShort>
+            <unsignedShort>2</unsignedShort>
           </uniqueIds>
         </Condition>
       </conditions>
@@ -1952,7 +2084,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>false</emphasized>
+      <emphasized>true</emphasized>
       <nameOverride />
     </Rule>
     <Rule>
@@ -1968,6 +2100,419 @@
           <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
           <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
         </Condition>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>0</unsignedShort>
+            <unsignedShort>1</unsignedShort>
+            <unsignedShort>2</unsignedShort>
+            <unsignedShort>3</unsignedShort>
+            <unsignedShort>4</unsignedShort>
+            <unsignedShort>6</unsignedShort>
+            <unsignedShort>105</unsignedShort>
+            <unsignedShort>160</unsignedShort>
+            <unsignedShort>172</unsignedShort>
+            <unsignedShort>221</unsignedShort>
+            <unsignedShort>222</unsignedShort>
+            <unsignedShort>239</unsignedShort>
+            <unsignedShort>256</unsignedShort>
+            <unsignedShort>270</unsignedShort>
+            <unsignedShort>302</unsignedShort>
+            <unsignedShort>307</unsignedShort>
+            <unsignedShort>316</unsignedShort>
+            <unsignedShort>335</unsignedShort>
+            <unsignedShort>357</unsignedShort>
+            <unsignedShort>373</unsignedShort>
+            <unsignedShort>401</unsignedShort>
+            <unsignedShort>412</unsignedShort>
+            <unsignedShort>7</unsignedShort>
+            <unsignedShort>8</unsignedShort>
+            <unsignedShort>9</unsignedShort>
+            <unsignedShort>10</unsignedShort>
+            <unsignedShort>11</unsignedShort>
+            <unsignedShort>12</unsignedShort>
+            <unsignedShort>13</unsignedShort>
+            <unsignedShort>14</unsignedShort>
+            <unsignedShort>93</unsignedShort>
+            <unsignedShort>106</unsignedShort>
+            <unsignedShort>111</unsignedShort>
+            <unsignedShort>117</unsignedShort>
+            <unsignedShort>153</unsignedShort>
+            <unsignedShort>248</unsignedShort>
+            <unsignedShort>255</unsignedShort>
+            <unsignedShort>272</unsignedShort>
+            <unsignedShort>275</unsignedShort>
+            <unsignedShort>304</unsignedShort>
+            <unsignedShort>309</unsignedShort>
+            <unsignedShort>313</unsignedShort>
+            <unsignedShort>354</unsignedShort>
+            <unsignedShort>358</unsignedShort>
+            <unsignedShort>370</unsignedShort>
+            <unsignedShort>387</unsignedShort>
+            <unsignedShort>15</unsignedShort>
+            <unsignedShort>17</unsignedShort>
+            <unsignedShort>18</unsignedShort>
+            <unsignedShort>75</unsignedShort>
+            <unsignedShort>92</unsignedShort>
+            <unsignedShort>103</unsignedShort>
+            <unsignedShort>112</unsignedShort>
+            <unsignedShort>180</unsignedShort>
+            <unsignedShort>188</unsignedShort>
+            <unsignedShort>204</unsignedShort>
+            <unsignedShort>258</unsignedShort>
+            <unsignedShort>263</unsignedShort>
+            <unsignedShort>288</unsignedShort>
+            <unsignedShort>399</unsignedShort>
+            <unsignedShort>402</unsignedShort>
+            <unsignedShort>404</unsignedShort>
+            <unsignedShort>416</unsignedShort>
+            <unsignedShort>19</unsignedShort>
+            <unsignedShort>20</unsignedShort>
+            <unsignedShort>21</unsignedShort>
+            <unsignedShort>91</unsignedShort>
+            <unsignedShort>104</unsignedShort>
+            <unsignedShort>115</unsignedShort>
+            <unsignedShort>132</unsignedShort>
+            <unsignedShort>147</unsignedShort>
+            <unsignedShort>178</unsignedShort>
+            <unsignedShort>203</unsignedShort>
+            <unsignedShort>206</unsignedShort>
+            <unsignedShort>218</unsignedShort>
+            <unsignedShort>229</unsignedShort>
+            <unsignedShort>233</unsignedShort>
+            <unsignedShort>253</unsignedShort>
+            <unsignedShort>264</unsignedShort>
+            <unsignedShort>280</unsignedShort>
+            <unsignedShort>306</unsignedShort>
+            <unsignedShort>337</unsignedShort>
+            <unsignedShort>347</unsignedShort>
+            <unsignedShort>350</unsignedShort>
+            <unsignedShort>356</unsignedShort>
+            <unsignedShort>400</unsignedShort>
+            <unsignedShort>22</unsignedShort>
+            <unsignedShort>23</unsignedShort>
+            <unsignedShort>24</unsignedShort>
+            <unsignedShort>25</unsignedShort>
+            <unsignedShort>27</unsignedShort>
+            <unsignedShort>83</unsignedShort>
+            <unsignedShort>116</unsignedShort>
+            <unsignedShort>126</unsignedShort>
+            <unsignedShort>131</unsignedShort>
+            <unsignedShort>134</unsignedShort>
+            <unsignedShort>167</unsignedShort>
+            <unsignedShort>187</unsignedShort>
+            <unsignedShort>199</unsignedShort>
+            <unsignedShort>202</unsignedShort>
+            <unsignedShort>208</unsignedShort>
+            <unsignedShort>213</unsignedShort>
+            <unsignedShort>217</unsignedShort>
+            <unsignedShort>240</unsignedShort>
+            <unsignedShort>266</unsignedShort>
+            <unsignedShort>276</unsignedShort>
+            <unsignedShort>287</unsignedShort>
+            <unsignedShort>332</unsignedShort>
+            <unsignedShort>333</unsignedShort>
+            <unsignedShort>359</unsignedShort>
+            <unsignedShort>372</unsignedShort>
+            <unsignedShort>398</unsignedShort>
+            <unsignedShort>415</unsignedShort>
+            <unsignedShort>28</unsignedShort>
+            <unsignedShort>29</unsignedShort>
+            <unsignedShort>30</unsignedShort>
+            <unsignedShort>31</unsignedShort>
+            <unsignedShort>151</unsignedShort>
+            <unsignedShort>232</unsignedShort>
+            <unsignedShort>252</unsignedShort>
+            <unsignedShort>314</unsignedShort>
+            <unsignedShort>363</unsignedShort>
+            <unsignedShort>380</unsignedShort>
+            <unsignedShort>32</unsignedShort>
+            <unsignedShort>33</unsignedShort>
+            <unsignedShort>234</unsignedShort>
+            <unsignedShort>282</unsignedShort>
+            <unsignedShort>318</unsignedShort>
+            <unsignedShort>355</unsignedShort>
+            <unsignedShort>389</unsignedShort>
+            <unsignedShort>34</unsignedShort>
+            <unsignedShort>35</unsignedShort>
+            <unsignedShort>36</unsignedShort>
+            <unsignedShort>143</unsignedShort>
+            <unsignedShort>223</unsignedShort>
+            <unsignedShort>225</unsignedShort>
+            <unsignedShort>292</unsignedShort>
+            <unsignedShort>311</unsignedShort>
+            <unsignedShort>336</unsignedShort>
+            <unsignedShort>346</unsignedShort>
+            <unsignedShort>349</unsignedShort>
+            <unsignedShort>379</unsignedShort>
+            <unsignedShort>408</unsignedShort>
+            <unsignedShort>418</unsignedShort>
+            <unsignedShort>37</unsignedShort>
+            <unsignedShort>38</unsignedShort>
+            <unsignedShort>39</unsignedShort>
+            <unsignedShort>181</unsignedShort>
+            <unsignedShort>308</unsignedShort>
+            <unsignedShort>310</unsignedShort>
+            <unsignedShort>321</unsignedShort>
+            <unsignedShort>351</unsignedShort>
+            <unsignedShort>390</unsignedShort>
+            <unsignedShort>40</unsignedShort>
+            <unsignedShort>179</unsignedShort>
+            <unsignedShort>220</unsignedShort>
+            <unsignedShort>230</unsignedShort>
+            <unsignedShort>244</unsignedShort>
+            <unsignedShort>259</unsignedShort>
+            <unsignedShort>269</unsignedShort>
+            <unsignedShort>338</unsignedShort>
+            <unsignedShort>365</unsignedShort>
+            <unsignedShort>383</unsignedShort>
+            <unsignedShort>41</unsignedShort>
+            <unsignedShort>42</unsignedShort>
+            <unsignedShort>43</unsignedShort>
+            <unsignedShort>162</unsignedShort>
+            <unsignedShort>279</unsignedShort>
+            <unsignedShort>364</unsignedShort>
+            <unsignedShort>384</unsignedShort>
+            <unsignedShort>44</unsignedShort>
+            <unsignedShort>45</unsignedShort>
+            <unsignedShort>46</unsignedShort>
+            <unsignedShort>120</unsignedShort>
+            <unsignedShort>184</unsignedShort>
+            <unsignedShort>224</unsignedShort>
+            <unsignedShort>226</unsignedShort>
+            <unsignedShort>273</unsignedShort>
+            <unsignedShort>320</unsignedShort>
+            <unsignedShort>345</unsignedShort>
+            <unsignedShort>352</unsignedShort>
+            <unsignedShort>371</unsignedShort>
+            <unsignedShort>385</unsignedShort>
+            <unsignedShort>407</unsignedShort>
+            <unsignedShort>47</unsignedShort>
+            <unsignedShort>48</unsignedShort>
+            <unsignedShort>49</unsignedShort>
+            <unsignedShort>122</unsignedShort>
+            <unsignedShort>183</unsignedShort>
+            <unsignedShort>201</unsignedShort>
+            <unsignedShort>212</unsignedShort>
+            <unsignedShort>250</unsignedShort>
+            <unsignedShort>319</unsignedShort>
+            <unsignedShort>330</unsignedShort>
+            <unsignedShort>339</unsignedShort>
+            <unsignedShort>382</unsignedShort>
+            <unsignedShort>405</unsignedShort>
+            <unsignedShort>417</unsignedShort>
+            <unsignedShort>50</unsignedShort>
+            <unsignedShort>51</unsignedShort>
+            <unsignedShort>52</unsignedShort>
+            <unsignedShort>53</unsignedShort>
+            <unsignedShort>119</unsignedShort>
+            <unsignedShort>121</unsignedShort>
+            <unsignedShort>145</unsignedShort>
+            <unsignedShort>155</unsignedShort>
+            <unsignedShort>161</unsignedShort>
+            <unsignedShort>166</unsignedShort>
+            <unsignedShort>198</unsignedShort>
+            <unsignedShort>210</unsignedShort>
+            <unsignedShort>237</unsignedShort>
+            <unsignedShort>254</unsignedShort>
+            <unsignedShort>329</unsignedShort>
+            <unsignedShort>362</unsignedShort>
+            <unsignedShort>393</unsignedShort>
+            <unsignedShort>411</unsignedShort>
+            <unsignedShort>54</unsignedShort>
+            <unsignedShort>55</unsignedShort>
+            <unsignedShort>56</unsignedShort>
+            <unsignedShort>58</unsignedShort>
+            <unsignedShort>59</unsignedShort>
+            <unsignedShort>60</unsignedShort>
+            <unsignedShort>61</unsignedShort>
+            <unsignedShort>114</unsignedShort>
+            <unsignedShort>118</unsignedShort>
+            <unsignedShort>130</unsignedShort>
+            <unsignedShort>133</unsignedShort>
+            <unsignedShort>154</unsignedShort>
+            <unsignedShort>164</unsignedShort>
+            <unsignedShort>165</unsignedShort>
+            <unsignedShort>175</unsignedShort>
+            <unsignedShort>176</unsignedShort>
+            <unsignedShort>191</unsignedShort>
+            <unsignedShort>265</unsignedShort>
+            <unsignedShort>278</unsignedShort>
+            <unsignedShort>290</unsignedShort>
+            <unsignedShort>353</unsignedShort>
+            <unsignedShort>368</unsignedShort>
+            <unsignedShort>374</unsignedShort>
+            <unsignedShort>375</unsignedShort>
+            <unsignedShort>376</unsignedShort>
+            <unsignedShort>397</unsignedShort>
+            <unsignedShort>62</unsignedShort>
+            <unsignedShort>65</unsignedShort>
+            <unsignedShort>66</unsignedShort>
+            <unsignedShort>76</unsignedShort>
+            <unsignedShort>84</unsignedShort>
+            <unsignedShort>113</unsignedShort>
+            <unsignedShort>125</unsignedShort>
+            <unsignedShort>135</unsignedShort>
+            <unsignedShort>150</unsignedShort>
+            <unsignedShort>177</unsignedShort>
+            <unsignedShort>200</unsignedShort>
+            <unsignedShort>235</unsignedShort>
+            <unsignedShort>238</unsignedShort>
+            <unsignedShort>257</unsignedShort>
+            <unsignedShort>262</unsignedShort>
+            <unsignedShort>277</unsignedShort>
+            <unsignedShort>303</unsignedShort>
+            <unsignedShort>340</unsignedShort>
+            <unsignedShort>348</unsignedShort>
+            <unsignedShort>360</unsignedShort>
+            <unsignedShort>366</unsignedShort>
+            <unsignedShort>396</unsignedShort>
+            <unsignedShort>67</unsignedShort>
+            <unsignedShort>68</unsignedShort>
+            <unsignedShort>69</unsignedShort>
+            <unsignedShort>70</unsignedShort>
+            <unsignedShort>71</unsignedShort>
+            <unsignedShort>72</unsignedShort>
+            <unsignedShort>81</unsignedShort>
+            <unsignedShort>107</unsignedShort>
+            <unsignedShort>108</unsignedShort>
+            <unsignedShort>152</unsignedShort>
+            <unsignedShort>163</unsignedShort>
+            <unsignedShort>182</unsignedShort>
+            <unsignedShort>207</unsignedShort>
+            <unsignedShort>214</unsignedShort>
+            <unsignedShort>216</unsignedShort>
+            <unsignedShort>241</unsignedShort>
+            <unsignedShort>249</unsignedShort>
+            <unsignedShort>267</unsignedShort>
+            <unsignedShort>268</unsignedShort>
+            <unsignedShort>281</unsignedShort>
+            <unsignedShort>291</unsignedShort>
+            <unsignedShort>312</unsignedShort>
+            <unsignedShort>341</unsignedShort>
+            <unsignedShort>343</unsignedShort>
+            <unsignedShort>395</unsignedShort>
+            <unsignedShort>403</unsignedShort>
+            <unsignedShort>410</unsignedShort>
+            <unsignedShort>413</unsignedShort>
+            <unsignedShort>414</unsignedShort>
+            <unsignedShort>73</unsignedShort>
+            <unsignedShort>124</unsignedShort>
+            <unsignedShort>149</unsignedShort>
+            <unsignedShort>169</unsignedShort>
+            <unsignedShort>190</unsignedShort>
+            <unsignedShort>205</unsignedShort>
+            <unsignedShort>209</unsignedShort>
+            <unsignedShort>274</unsignedShort>
+            <unsignedShort>289</unsignedShort>
+            <unsignedShort>305</unsignedShort>
+            <unsignedShort>323</unsignedShort>
+            <unsignedShort>367</unsignedShort>
+            <unsignedShort>386</unsignedShort>
+            <unsignedShort>419</unsignedShort>
+            <unsignedShort>74</unsignedShort>
+            <unsignedShort>123</unsignedShort>
+            <unsignedShort>195</unsignedShort>
+            <unsignedShort>196</unsignedShort>
+            <unsignedShort>197</unsignedShort>
+            <unsignedShort>247</unsignedShort>
+            <unsignedShort>283</unsignedShort>
+            <unsignedShort>286</unsignedShort>
+            <unsignedShort>317</unsignedShort>
+            <unsignedShort>322</unsignedShort>
+            <unsignedShort>328</unsignedShort>
+            <unsignedShort>331</unsignedShort>
+            <unsignedShort>369</unsignedShort>
+            <unsignedShort>377</unsignedShort>
+            <unsignedShort>394</unsignedShort>
+            <unsignedShort>80</unsignedShort>
+            <unsignedShort>82</unsignedShort>
+            <unsignedShort>245</unsignedShort>
+            <unsignedShort>381</unsignedShort>
+            <unsignedShort>406</unsignedShort>
+            <unsignedShort>136</unsignedShort>
+            <unsignedShort>192</unsignedShort>
+            <unsignedShort>236</unsignedShort>
+            <unsignedShort>284</unsignedShort>
+            <unsignedShort>285</unsignedShort>
+            <unsignedShort>315</unsignedShort>
+            <unsignedShort>342</unsignedShort>
+            <unsignedShort>388</unsignedShort>
+            <unsignedShort>137</unsignedShort>
+            <unsignedShort>141</unsignedShort>
+            <unsignedShort>142</unsignedShort>
+            <unsignedShort>144</unsignedShort>
+            <unsignedShort>159</unsignedShort>
+            <unsignedShort>168</unsignedShort>
+            <unsignedShort>231</unsignedShort>
+            <unsignedShort>242</unsignedShort>
+            <unsignedShort>243</unsignedShort>
+            <unsignedShort>271</unsignedShort>
+            <unsignedShort>334</unsignedShort>
+            <unsignedShort>391</unsignedShort>
+            <unsignedShort>146</unsignedShort>
+            <unsignedShort>148</unsignedShort>
+            <unsignedShort>189</unsignedShort>
+            <unsignedShort>215</unsignedShort>
+            <unsignedShort>251</unsignedShort>
+            <unsignedShort>361</unsignedShort>
+            <unsignedShort>378</unsignedShort>
+            <unsignedShort>392</unsignedShort>
+            <unsignedShort>211</unsignedShort>
+            <unsignedShort>219</unsignedShort>
+            <unsignedShort>325</unsignedShort>
+            <unsignedShort>246</unsignedShort>
+            <unsignedShort>344</unsignedShort>
+            <unsignedShort>324</unsignedShort>
+            <unsignedShort>326</unsignedShort>
+            <unsignedShort>5</unsignedShort>
+            <unsignedShort>77</unsignedShort>
+            <unsignedShort>87</unsignedShort>
+            <unsignedShort>96</unsignedShort>
+            <unsignedShort>129</unsignedShort>
+            <unsignedShort>158</unsignedShort>
+            <unsignedShort>185</unsignedShort>
+            <unsignedShort>194</unsignedShort>
+            <unsignedShort>16</unsignedShort>
+            <unsignedShort>79</unsignedShort>
+            <unsignedShort>102</unsignedShort>
+            <unsignedShort>138</unsignedShort>
+            <unsignedShort>26</unsignedShort>
+            <unsignedShort>94</unsignedShort>
+            <unsignedShort>139</unsignedShort>
+            <unsignedShort>260</unsignedShort>
+            <unsignedShort>57</unsignedShort>
+            <unsignedShort>90</unsignedShort>
+            <unsignedShort>63</unsignedShort>
+            <unsignedShort>64</unsignedShort>
+            <unsignedShort>228</unsignedShort>
+            <unsignedShort>78</unsignedShort>
+            <unsignedShort>86</unsignedShort>
+            <unsignedShort>95</unsignedShort>
+            <unsignedShort>128</unsignedShort>
+            <unsignedShort>157</unsignedShort>
+            <unsignedShort>85</unsignedShort>
+            <unsignedShort>88</unsignedShort>
+            <unsignedShort>109</unsignedShort>
+            <unsignedShort>89</unsignedShort>
+            <unsignedShort>171</unsignedShort>
+            <unsignedShort>174</unsignedShort>
+            <unsignedShort>193</unsignedShort>
+            <unsignedShort>97</unsignedShort>
+            <unsignedShort>186</unsignedShort>
+            <unsignedShort>98</unsignedShort>
+            <unsignedShort>140</unsignedShort>
+            <unsignedShort>99</unsignedShort>
+            <unsignedShort>101</unsignedShort>
+            <unsignedShort>110</unsignedShort>
+            <unsignedShort>100</unsignedShort>
+            <unsignedShort>127</unsignedShort>
+            <unsignedShort>156</unsignedShort>
+            <unsignedShort>170</unsignedShort>
+            <unsignedShort>173</unsignedShort>
+            <unsignedShort>227</unsignedShort>
+            <unsignedShort>261</unsignedShort>
+          </uniqueIds>
+        </Condition>
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
@@ -1975,7 +2520,7 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride />
+      <nameOverride>LP3+</nameOverride>
     </Rule>
   </rules>
 </ItemFilter>
