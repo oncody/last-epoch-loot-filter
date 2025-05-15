@@ -460,7 +460,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Rings</nameOverride>
     </Rule>
     <Rule>
@@ -503,7 +503,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Relics</nameOverride>
     </Rule>
     <Rule>
@@ -518,7 +518,6 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>768</int>
-            <int>771</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -533,7 +532,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Champion Belt</nameOverride>
     </Rule>
     <Rule>
@@ -562,7 +561,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Champion Amulet</nameOverride>
     </Rule>
     <Rule>
@@ -600,7 +599,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Amulets</nameOverride>
     </Rule>
     <Rule>
@@ -629,7 +628,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>T6 Hybrid Health Boots</nameOverride>
     </Rule>
     <Rule>
@@ -663,7 +662,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Boots</nameOverride>
     </Rule>
     <Rule>
@@ -692,7 +691,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>T6 Gloves</nameOverride>
     </Rule>
     <Rule>
@@ -731,7 +730,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Gloves</nameOverride>
     </Rule>
     <Rule>
@@ -760,7 +759,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>T6 Hybrid Health Belts</nameOverride>
     </Rule>
     <Rule>
@@ -793,7 +792,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>T6 Belts</nameOverride>
     </Rule>
     <Rule>
@@ -832,7 +831,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Belts</nameOverride>
     </Rule>
     <Rule>
@@ -869,7 +868,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>Double T6 Chest</nameOverride>
     </Rule>
     <Rule>
@@ -915,7 +914,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>T7 Chest</nameOverride>
     </Rule>
     <Rule>
@@ -930,7 +929,6 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>381</int>
-            <int>690</int>
             <int>548</int>
             <int>52</int>
             <int>546</int>
@@ -938,7 +936,6 @@
             <int>557</int>
             <int>385</int>
             <int>34</int>
-            <int>552</int>
           </affixes>
           <comparsion>MORE</comparsion>
           <comparsionValue>5</comparsionValue>
@@ -953,7 +950,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>Double T6 Helmets</nameOverride>
     </Rule>
     <Rule>
@@ -968,7 +965,6 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>381</int>
-            <int>690</int>
             <int>548</int>
             <int>52</int>
             <int>546</int>
@@ -976,7 +972,6 @@
             <int>557</int>
             <int>385</int>
             <int>34</int>
-            <int>552</int>
             <int>502</int>
             <int>382</int>
             <int>400</int>
@@ -1000,37 +995,8 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>T7 Helmets</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>549</int>
-          </affixes>
-          <comparsion>MORE</comparsion>
-          <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Level of Fireball Chest Body Armor</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1058,7 +1024,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>Fireball Pierce Helmet</nameOverride>
     </Rule>
     <Rule>
@@ -1090,7 +1056,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Catalysts</nameOverride>
     </Rule>
     <Rule>
@@ -1126,7 +1092,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Sceptres</nameOverride>
     </Rule>
     <Rule>
@@ -1160,7 +1126,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Daggers</nameOverride>
     </Rule>
     <Rule>
@@ -1197,7 +1163,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Wands</nameOverride>
     </Rule>
     <Rule>
@@ -1234,7 +1200,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>God Staves</nameOverride>
     </Rule>
     <Rule>
@@ -1473,7 +1439,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
+      <emphasized>false</emphasized>
       <nameOverride>T7 T6 Items</nameOverride>
     </Rule>
     <Rule>
@@ -1744,7 +1710,7 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>false</emphasized>
+      <emphasized>true</emphasized>
       <nameOverride />
     </Rule>
     <Rule>
@@ -2428,7 +2394,6 @@
             <unsignedShort>82</unsignedShort>
             <unsignedShort>245</unsignedShort>
             <unsignedShort>381</unsignedShort>
-            <unsignedShort>406</unsignedShort>
             <unsignedShort>136</unsignedShort>
             <unsignedShort>192</unsignedShort>
             <unsignedShort>236</unsignedShort>
